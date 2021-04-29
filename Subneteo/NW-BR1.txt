@@ -1,0 +1,13 @@
+Enable
+Configure Terminal
+Interface FastEthernet 0/0
+Ip address 172.16.224.1 255.255.248.0
+No shutdown
+Interface FastEthernet 0/1
+Ip address 172.16.232.1 255.255.248.0
+No shutdown
+Interface Serial 0/0/0
+Ip address 172.16.255.10 255.255.255.252
+No shutdown
+End
+copy running-config startup-config

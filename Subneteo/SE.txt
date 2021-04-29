@@ -1,0 +1,13 @@
+Enable
+Configure Terminal
+Interface Serial 0/0/1
+Ip address 172.16.191.13 255.255.255.252
+No shutdown
+Interface Serial 0/1/0
+Ip address 172.16.191.9 255.255.255.252
+No shutdown
+Interface Serial 0/0/0
+Ip address 172.16.191.6 255.255.255.252
+No shutdown
+End
+copy running-config startup-config 
